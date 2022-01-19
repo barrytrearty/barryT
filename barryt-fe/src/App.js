@@ -110,7 +110,7 @@ function App() {
             <div className="back">
               <p>
                 ... aimlessly bounced between different programming languages
-                and technologies with no end goal in sight.
+                and technologies with no direction and no end goal in sight.
               </p>
               <p>Like a crazed chicken the sequel.</p>
               <label className="back-btn" for="c3" id="probBtn">
