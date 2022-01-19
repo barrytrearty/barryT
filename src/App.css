@@ -159,9 +159,11 @@ p {
 }
 
 .next-btn {
+  background-color: white;
   position: absolute;
   bottom: 13px;
   right: 13px;
+  padding: 10px;
   cursor: pointer;
   color: rgb(0, 122, 0);
 }
