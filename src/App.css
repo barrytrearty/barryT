@@ -160,7 +160,7 @@ p {
 }
 
 .next-btn {
-  background-color: white;
+  /* background-color: white; */
   position: absolute;
   bottom: 13px;
   right: 13px;
@@ -175,7 +175,7 @@ p {
   right: 13px;
   cursor: pointer;
   color: rgb(0, 122, 0);
-  display: none;
+  /* display: none; */
 }
 
 #p1 {
