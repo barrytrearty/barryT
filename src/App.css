@@ -19,7 +19,7 @@
   text-shadow: green;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
 }
 
@@ -82,7 +82,7 @@
 
 .flip-book-section {
   color: white;
-  padding-top: 200px;
+  padding-top: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ input {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -278,5 +278,5 @@ p {
 
 .caption {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
