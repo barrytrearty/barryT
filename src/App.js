@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <div className="heading-holder">
         <h1 className="neon" data-text="Barry T">
-          Under Maintenance -24/01/20202
+          Under Maintenance -24/01/2020
         </h1>
       </div>
 
