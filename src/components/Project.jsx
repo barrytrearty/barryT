@@ -5,24 +5,28 @@ const Project = () => {
   return (
     <div id="project-section">
       {/* <h2 className="neon">My Projects</h2> */}
-      <div className="box">
-        <div className="imgBx">
-          <img src={Project1} alt="" />
+      <a href="https://mdrc.vercel.app/" target="_blank">
+        <div className="box">
+          <div className="imgBx">
+            <img src={Project1} alt="" />
+          </div>
+          <div className="content">
+            <h2>Milford Resource Centre</h2>
+            {/* <h2>HTML, JavaScript, CSS</h2> */}
+          </div>
         </div>
-        <div className="content">
-          <h2>Milford Resource Centre</h2>
-          {/* <h2>HTML, JavaScript, CSS</h2> */}
+      </a>
+      <a href="https://clubstub-fe.vercel.app/home" target="_blank">
+        <div className="box">
+          <div className="imgBx">
+            <img src={Project2} alt="" />
+          </div>
+          <div className="content">
+            <h2>O'Deals GAA Tickets</h2>
+            {/* <h2>MongoDB, Express, React, Redux, Node.js</h2> */}
+          </div>
         </div>
-      </div>
-      <div className="box">
-        <div className="imgBx">
-          <img src={Project2} alt="" />
-        </div>
-        <div className="content">
-          <h2>O'Deals GAA Tickets</h2>
-          {/* <h2>MongoDB, Express, React, Redux, Node.js</h2> */}
-        </div>
-      </div>
+      </a>
       {/* <div className="box">
         <div className="imgBx">
           <img src={Project1} alt="" />
