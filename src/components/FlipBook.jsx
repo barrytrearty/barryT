@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import crazedChicken1 from "../data/crazedChicken1.png";
 import crazedChicken2 from "../data/crazedChicken2.png";
 import boredChicken from "../data/boredchicken.png";
