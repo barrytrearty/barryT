@@ -1,9 +1,15 @@
 .heading-holder {
-  width: 341.3px;
-  margin: auto;
+  height: 100vh;
 }
 
-.App h1 {
+.heading {
+  width: 341.3px;
+  margin: auto;
+  /* margin-bottom: 20px; */
+  padding-top: 70px;
+}
+
+.heading h1 {
   position: relative;
   color: white;
   /* text-shadow: #8be479; */
@@ -16,6 +22,7 @@
 .neon {
   position: absolute;
   margin-top: 0;
+  margin-bottom: 0;
   padding: 0 20px;
   text-shadow: 5px 0 5px rgb(0, 122, 0);
 }
@@ -44,4 +51,121 @@
   background: rgba(6, 61, 6, 0.336);
   opacity: 0.5;
   filter: blur(40);
+}
+
+.info {
+  position: relative;
+  background: #060c21;
+  text-align: left;
+  width: 80%;
+  padding: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.info img {
+  /* position: absolute; */
+  height: 150px;
+}
+
+.aboutCardHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.aboutCardGrad {
+  position: relative;
+  transition: 0.5;
+}
+
+.aboutCard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: #060c21;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transition: 0.5s;
+  border-radius: 20px 20px 0 0;
+}
+
+.aboutCard:hover {
+  transform: translate(50%);
+}
+
+.aboutCard:hover .aboutCardGrad {
+  width: 600px;
+}
+
+.aboutDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutImgBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+
+.aboutCard:hover .aboutImgBox {
+  transform: rotateY(-180deg);
+}
+
+.aboutImgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.aboutImgBox img:nth-child(2) {
+  transform: rotateY(180deg);
+}
+
+.aboutCardGrad:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.aboutCardGrad:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+  border-radius: 15px;
+}
+
+.aboutCardGrad:before,
+.aboutCardGrad:after {
+  background: linear-gradient(235deg, #8be479, #010615, #fa6565);
 }

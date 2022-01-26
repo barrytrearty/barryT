@@ -14,12 +14,14 @@ const Project = () => {
             </a>
           </div>
           <div className="content">
-            <h3>Milford Resource Centre</h3>
+            <a href="https://mdrc.vercel.app/" target="_blank">
+              <h3>Milford Resource Centre</h3>
+            </a>
             <div className="content-links">
-              <a href="">
+              <a href="https://mdrc.vercel.app/" target="_blank">
                 <span>Live site</span>
               </a>
-              <a href="">
+              <a href="https://github.com/barrytrearty/MDRC" target="_blank">
                 <span>Source code</span>
               </a>
             </div>
@@ -35,12 +37,17 @@ const Project = () => {
             </a>
           </div>
           <div className="content">
-            <h3>O'Deals GAA Tickets</h3>
+            <a href="https://clubstub-fe.vercel.app/home" target="_blank">
+              <h3>O'Deals GAA Tickets</h3>
+            </a>
             <div className="content-links">
-              <a href="">
+              <a href="https://clubstub-fe.vercel.app/home" target="_blank">
                 <span>Live site</span>
               </a>
-              <a href="">
+              <a
+                href="https://github.com/barrytrearty/clubstub-fe"
+                target="_blank"
+              >
                 <span>Source code</span>
               </a>
             </div>

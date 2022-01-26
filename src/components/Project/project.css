@@ -92,7 +92,7 @@
   right: 10px;
   bottom: 10px;
   height: 90px;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -108,7 +108,16 @@
 .content h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: rgba(196, 188, 188, 0.534);
+  text-decoration: none;
+}
+
+.h3:hover {
+  color: rgb(255, 255, 255);
+}
+
+.content a {
+  text-decoration: none;
 }
 
 .box:hover .content h3 {

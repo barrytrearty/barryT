@@ -2,6 +2,8 @@ import "./App.css";
 import { useEffect } from "react";
 import Project from "./components/Project/Project";
 import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Contact from "./components/Contact/Contact";
 // import Flipbook from "./components/Flipbook/FlipBook";
 
 function App() {
@@ -11,8 +13,11 @@ function App() {
 
   return (
     <div className="App">
+      <Nav />
+
       <Header />
-      nav
+      {/* <Contact /> */}
+
       {/* <Flipbook /> */}
       <Project />
     </div>
