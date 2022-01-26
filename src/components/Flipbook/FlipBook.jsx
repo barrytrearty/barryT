@@ -1,11 +1,11 @@
-
-import crazedChicken1 from "../data/crazedChicken1.png";
-import crazedChicken2 from "../data/crazedChicken2.png";
-import boredChicken from "../data/boredchicken.png";
-import happyChicken from "../data/happyChicken.png";
-import strongChicken from "../data/strongChicken.png";
-import improveChicken from "../data/improveChicken.png";
-import sadFace from "../data/sadFace.png";
+import crazedChicken1 from "../../data/crazedChicken1.png";
+import crazedChicken2 from "../../data/crazedChicken2.png";
+import boredChicken from "../../data/boredchicken.png";
+import happyChicken from "../../data/happyChicken.png";
+import strongChicken from "../../data/strongChicken.png";
+import improveChicken from "../../data/improveChicken.png";
+import sadFace from "../../data/sadFace.png";
+import "./flipbook.css";
 
 const Flipbook = () => {
   const lastOne = () => {

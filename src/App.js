@@ -1,6 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
-import Project from "./components/Project";
+import Project from "./components/Project/Project";
+import Header from "./components/Header/Header";
+// import Flipbook from "./components/Flipbook/FlipBook";
 
 function App() {
   useEffect(() => {
@@ -9,14 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="heading-holder">
-        <h1 className="neon" data-text="Barry T">
-          Barry T
-        </h1>
-      </div>
-
+      <Header />
+      nav
       {/* <Flipbook /> */}
-
       <Project />
     </div>
   );
