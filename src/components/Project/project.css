@@ -1,3 +1,7 @@
+#projects h2 {
+  padding-top: 25vh;
+}
+
 #project-section {
   position: relative;
   display: flex;

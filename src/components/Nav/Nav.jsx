@@ -3,9 +3,9 @@ import "./nav.css";
 const Nav = () => {
   return (
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About me</a>
-      <a href="#">Projects</a>
+      <a href="#about-me">About me</a>
+      <a href="#stacks-container">Stacks</a>
+      <a href="#projects">Projects</a>
       <a href="#">Contact me</a>
     </nav>
   );

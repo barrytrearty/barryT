@@ -7,9 +7,15 @@
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2 {
   color: white;
   font-weight: 700;
   font-size: 2rem;
   text-shadow: 1px 1px #8be479;
+  padding-bottom: 20px;
+  /* padding-top: 100px; */
 }
