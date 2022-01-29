@@ -9,14 +9,13 @@ const Project = () => {
       <div id="project-section">
         <div className="box">
           <div className="imgBx">
-            <a href="https://mdrc.vercel.app/" target="_blank">
-              <img src={Project1} alt="" />{" "}
-            </a>
+            {/* <a href="https://mdrc.vercel.app/" target="_blank"> */}
+            <img src={Project1} alt="" /> {/* </a> */}
           </div>
           <div className="content">
-            <a href="https://mdrc.vercel.app/" target="_blank">
-              <h3>Milford Resource Centre</h3>
-            </a>
+            {/* <a href="https://mdrc.vercel.app/" target="_blank"> */}
+            <h3>Milford Resource Centre</h3>
+            {/* </a> */}
             <div className="content-links">
               <a href="https://mdrc.vercel.app/" target="_blank">
                 <span>Live site</span>
