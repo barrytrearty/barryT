@@ -9,13 +9,11 @@ const Project = () => {
       <div id="project-section">
         <div className="box">
           <div className="imgBx">
-            {/* <a href="https://mdrc.vercel.app/" target="_blank"> */}
-            <img src={Project1} alt="" /> {/* </a> */}
+            <img src={Project1} alt="" />
           </div>
           <div className="content">
-            {/* <a href="https://mdrc.vercel.app/" target="_blank"> */}
             <h3>Milford Resource Centre</h3>
-            {/* </a> */}
+
             <div className="content-links">
               <a href="https://mdrc.vercel.app/" target="_blank">
                 <span>Live site</span>
@@ -31,14 +29,11 @@ const Project = () => {
 
         <div className="box">
           <div className="imgBx">
-            <a href="https://clubstub-fe.vercel.app/home" target="_blank">
-              <img src={Project2} alt="" />
-            </a>
+            <img src={Project2} alt="" />
           </div>
           <div className="content">
-            <a href="https://clubstub-fe.vercel.app/home" target="_blank">
-              <h3>O'Deals GAA Tickets</h3>
-            </a>
+            <h3>O'Deals GAA Tickets</h3>
+
             <div className="content-links">
               <a href="https://clubstub-fe.vercel.app/home" target="_blank">
                 <span>Live site</span>
