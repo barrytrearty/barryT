@@ -1,4 +1,5 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import SendMessage from "../SendMessage/SendMessage";
 import "./contact.css";
 
 const Contact = () => {
@@ -6,8 +7,10 @@ const Contact = () => {
     <div id="contact">
       <h2>Contact me</h2>
       <div>
+        <p>Feel free to drop me a message</p>
+        <SendMessage />
         <p>
-          If you wish you can reach me at{" "}
+          Or if you wish you can reach me at{" "}
           <span className="highlight">btrearty@gmail.com</span>
         </p>
         <p>I'm also available at:</p>

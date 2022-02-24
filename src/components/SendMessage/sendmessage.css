@@ -1,0 +1,26 @@
+.message-form {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  margin-top: 20px;
+}
+
+label:first-child {
+  margin-top: 10px;
+}
+
+.message-form input,
+textarea {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 761px) {
+  .message-form {
+    width: 700px;
+  }
+}
