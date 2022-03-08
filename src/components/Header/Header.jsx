@@ -1,13 +1,14 @@
 import "./header.css";
 import btImg1 from "../../data/bitmo1.png";
 import btImg2 from "../../data/bitmo2.png";
+import { useRef } from "react";
 
 const Header = () => {
-  // const aboutCard = document.getElementById("openCard");
+  const aboutCardRef = useRef();
 
-  // const toggleOpen = () => {
-  //   aboutCard.classList.toggle("open");
-  // };
+  const toggleOpen = () => {
+    aboutCardRef.current.classList.toggle("clicked");
+  };
 
   return (
     <div className="heading-holder">
@@ -18,9 +19,9 @@ const Header = () => {
       </div>
       <div id="about-me">
         <h2>About Me</h2>
-        <div className="aboutCardHolder">
-          <div className="aboutCardGrad ">
-            <div className="aboutCard" id="openCard">
+        <div id="aboutCardHolder">
+          <div id="aboutCardGrad">
+            <div id="aboutCard" ref={aboutCardRef} onClick={toggleOpen}>
               <div className="aboutImgBox">
                 <img src={btImg2} alt="" />
                 <img src={btImg1} alt="" />

@@ -34,7 +34,7 @@ export const SendMessage = () => {
       <input type="email" name="email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send" id="sendbutton" />
     </form>
   );
 };

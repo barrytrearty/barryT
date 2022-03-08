@@ -17,6 +17,19 @@ label:first-child {
 .message-form input,
 textarea {
   font-size: 1.5rem;
+  background-color: #060c21;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+#sendbutton {
+  cursor: pointer;
+  background-color: #8be479;
+  color: #060c21;
 }
 
 @media (min-width: 761px) {
