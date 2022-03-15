@@ -1,5 +1,7 @@
-import Project1 from "../../data/milford.PNG";
-import Project2 from "../../data/odeals.PNG";
+import Project1 from "../../data/milfordImg.PNG";
+import Project2 from "../../data/odealsAppImg.PNG";
+import Project3 from "../../data/dartsAppImg.PNG";
+import Project4 from "../../data/endOfDayApp.PNG";
 import "./project.css";
 
 const Project = () => {
@@ -40,6 +42,51 @@ const Project = () => {
               </a>
               <a
                 href="https://github.com/barrytrearty/clubstub-fe"
+                target="_blank"
+              >
+                <span>Source code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="box">
+          <div className="imgBx">
+            <img src={Project3} alt="" />
+          </div>
+          <div className="content">
+            <h3>Darts Score Browser App</h3>
+
+            <div className="content-links">
+              <a
+                href="https://darts-calculator.vercel.app/home"
+                target="_blank"
+              >
+                <span>Live site</span>
+              </a>
+              <a
+                href="https://github.com/barrytrearty/DartsCalculator"
+                target="_blank"
+              >
+                <span>Source code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="box">
+          <div className="imgBx">
+            <img src={Project4} alt="" />
+          </div>
+          <div className="content">
+            <h3>End of Day Browser App</h3>
+
+            <div className="content-links">
+              <a href="https://end-of-day-counter.vercel.app/" target="_blank">
+                <span>Live site</span>
+              </a>
+              <a
+                href="https://github.com/barrytrearty/EndOfDay-Counter"
                 target="_blank"
               >
                 <span>Source code</span>
