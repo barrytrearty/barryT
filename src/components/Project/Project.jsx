@@ -58,10 +58,7 @@ const Project = () => {
             <h3>Darts Score Browser App</h3>
 
             <div className="content-links">
-              <a
-                href="https://darts-calculator.vercel.app/home"
-                target="_blank"
-              >
+              <a href="https://darts-calculator.vercel.app" target="_blank">
                 <span>Live site</span>
               </a>
               <a
