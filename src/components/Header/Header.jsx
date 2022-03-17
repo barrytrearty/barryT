@@ -33,7 +33,7 @@ const Header = () => {
                       My name is Barry and I am a graduate of Strive School.
                       Previously, I worked as an online English tutor. Now, I am
                       a Fullstack developer with a special focus on the
-                      frontend.{" "}
+                      frontend!
                     </p>
                     <p>
                       Feel free to check out my github and portfolio and don't
