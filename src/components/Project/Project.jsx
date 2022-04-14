@@ -1,5 +1,5 @@
-import Project1 from "../../data/milfordImg.PNG";
-import Project2 from "../../data/odealsAppImg.PNG";
+import Project1 from "../../data/milford.PNG";
+import Project2 from "../../data/odeals.PNG";
 import Project3 from "../../data/dartsAppImg.PNG";
 import Project4 from "../../data/endOfDayApp.PNG";
 import "./project.css";
